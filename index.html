@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservia</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/df344a6829.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Barre de navigation -->
+  <header class="header">
+    <img class="logoMain" src="img/Reservia@3x.png" alt="Reservia">
+    <nav class="navigationMain">
+      <a class="navigationMainLien" href="#Hosting" data-active="true">Hébergement</a>
+      <a class="navigationMainLien" href="#Activity" data-active="false">Activités</a>
+    </nav>
+    <a class="sinscrireMain" href="#Signup">S'inscrire</a>
+  </header>
+  <!-- Barre de navigation -->
+  <!-- MAIN -->
+  <main class="main">
+    <!-- Barre de recherche -->
+    <section class="recherche">
+      <header class="rechercheMain">
+        <h1 class="titreRechercheMain">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="titreSubtileMain">En plein centre de ville ou en pleine nature</p>
+      </header>
+      <form class="searchForm" action="proceedFrom.html" method="GET">
+        <span class="searchFormWrapicon">
+          <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i></span>
+        <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+        <button class="searchFormSubmitinput">
+          <span class="searchFormSubmitinputText">Rechercher</span>
+          <i class="searchFormSubmitinputIcon fas fa-search"></i>
+        </button>
+      </form>
+      <!-- Filtre de recherche -->
+      <div class="filtres">
+        <div class="container">
+          <h2 class="titreFiltre">Filtres</h2>
+          <!-- Filtre économique -->
+          <div class="filtreRechercheLogement economique">
+            <div class="filtreLogo"><i class="fas fa-money-bill-wave filtreBoutonLogo"></i></div>
+            <p class="filtreRechercheSpan">Économique</p>
+          </div>
+          <!-- Filtre Familial -->
+          <div class="filtreRechercheLogement familial">
+            <div class="filtreLogo"><i class="fas fa-child filtreBoutonLogo"></i></div>
+            <p class="filtreRechercheSpan">Familial</p>
+          </div>
+          <!-- Filtre Romantique -->
+          <div class="filtreRechercheLogement">
+            <div class="filtreLogo"><i class="fas fa-heart filtreBoutonLogo"></i></div>
+            <p class="filtreRechercheSpan">Romantique</p>
+          </div>
+          <!-- Filtre Animaux -->
+          <div class="filtreRechercheLogement">
+            <div class="filtreLogo"><i class="fas fa-dog filtreBoutonLogo"></i></div>
+            <p class="filtreRechercheSpan">Animaux autorisés</p>
+          </div>
+        </div>
+      </div>
+      <!-- Filtre info -->
+      <div class="filtreInfo">
+        <div class="logoInfo"><i class="fas fa-info"></i></div>
+        <p class="filtreInfoTexte">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+    <!-- Hébergement à Marseille  -->
+
+    <section class="hebergementGrillePrincipale">
+      <div class="hebergementMarseille">
+        <header class="titreHebergementMarseille">
+          <h2 class="titreTexteHebergementMarseille">Hébergement à Marseille</h2>
+        </header>
+        <!-- 1er cadre "Auberge la Cannebière" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Auberge la Cannebière</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">25€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 2e cadre "Hôtel du port" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Hôtel du port</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">52€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 3e cadre "Hôtel Les mouettes" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Hôtel Les mouettes</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">76€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 4e cadre "Auberge de la mer" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Auberge de la mer</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">46€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 5e cadre "Auberge Le panier" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Auberge le Panier</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">23€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 6e cadre "Hôtel chez Amina" -->
+        <div class="hebergementPrincipal">
+          <a href="#">
+            <figure class="cadreHebergementMarseille">
+              <img src="img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu" class="cadreHerbergementMarseilleImg">
+              <figcaption class="cadreHebergementMarseilleCaption">
+                <h3 class="cadreHebergementMarseilleCaptionTitre">Hôtel chez Amina</h3>
+              </figcaption>
+            </figure>
+            <p class="prixHebergementMarseille">
+              Nuit à partir de
+              <strong class="notePrixHebergementMarseille">96€</strong>
+            </p>
+            <div class="noteHebergementMarseille">
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- 7e cadre "Les plus Populaire" -->
+        <a class="afficherPlus" href="#">Afficher plus</a>
+      </div>
+      <!-- Les plus populaires -->
+      <aside class="lesPlusPopulaire">
+        <h2 class="lesPlusPopulaireTitre">Les plus populaire
+          <i class="fas fa-chart-line"></i>
+        </h2>
+        <!-- 1er cadre "Hôtel Le soleil du matin" -->
+        <article class="LesPlusPopulaireChambre">
+          <a class="hebergementPopulairecontenant" href="#">
+            <div class="cadreLesPlusPopulaire">
+              <img class="cadrePopulaireImg" src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu">
+            </div>
+            <div class="populaireContenantTexte">
+              <h3 class="cartePopulaireTitre">Hôtel Le soleil du matin</h3>
+              <p class="prixHebergementMarseille">
+                Nuit à partir de
+                <strong class="notePrixHebergementMarseille">128€</strong>
+              </p>
+              <div class="populaireEspaceBlanc"></div>
+              <div class="noteHebergementMarseille">
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <!-- 2eme cadre "Au coeur de l'eau Chambres d'hôtes" -->
+        <article class="LesPlusPopulaireChambre">
+          <a class="hebergementPopulairecontenant" href="#">
+            <div class="cadreLesPlusPopulaire">
+              <img class="cadrePopulaireImg" src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu">
+            </div>
+            <div class="populaireContenantTexte">
+              <h3 class="cartePopulaireTitre">Au coeur de l'eau Chambres d'hôtes</h3>
+              <p class="prixHebergementMarseille">
+                Nuit à partir de
+                <strong class="notePrixHebergementMarseille">71€</strong>
+              </p>
+              <div class="populaireEspaceBlanc"></div>
+              <div class="noteHebergementMarseille">
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <!-- 3eme cadre "Hôtel tout bleu et blanc" -->
+        <article class="LesPlusPopulaireChambre">
+          <a class="hebergementPopulairecontenant" href="#">
+            <div class="cadreLesPlusPopulaire">
+              <img class="cadrePopulaireImg" src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Chambre traditionnelle méditéranienne couelur bleu">
+            </div>
+            <div class="populaireContenantTexte">
+              <h3 class="cartePopulaireTitre">Hôtel Tout bleu et blanc</h3>
+              <p class="prixHebergementMarseille">
+                Nuit à partir de
+                <strong class="notePrixHebergementMarseille">68€</strong>
+              </p>
+              <div class="populaireEspaceBlanc"></div>
+              <div class="noteHebergementMarseille">
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="true" aria-hidden="true"></i>
+                <i class="fas fa-star noteHebergementMarseilleLogo" data-active="false" aria-hidden="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+      </aside>
+    </section>
+    <!-- Activités à Marseille -->
+    <section class="activite">
+      <h2 class="activiteTitre">Activités à Marseille</h2>
+      <!-- Le vieux port de Marseille -->
+      <a href="#" id="activiteUn">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt="Le vieux port de Marseille">
+        </div>
+        <h3 class="activiteImgTitre">Vieux Port</h3>
+      </a>
+      <!-- Fort de Pomègues -->
+      <a href="#" id="activiteDeux">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+            alt="Un ancien fort de Pomègues">
+        </div>
+        <h3 class="activiteImgTitre">Fort de Pomègues</h3>
+      </a>
+      <!-- Le parc Nationnal des Calanques -->
+      <a href="#" id="activiteTrois">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+            alt="Le parc Nationnal des Calanques situé en bord de mer">
+        </div>
+        <h3 class="activiteImgTitre">Parc Nationnal des Calanques</h3>
+      </a>
+      <!-- Notre-Dames-de-la-Garde -->
+      <a href="#" id="activiteQuatre">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+            alt="Notre-Dames-de-la-Garde monument religieux qui domine les hauteurs de Marseille">
+        </div>
+        <h3 class="activiteImgTitre">Notre-Dames-de-la-Garde</h3>
+      </a>
+      <!-- îles du Frioul -->
+      <a href="#" id="activiteCinq">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+            alt="îles du Frioul, situé au large de Marseille">
+        </div>
+        <h3 class="activiteImgTitre">îles du Frioul</h3>
+      </a>
+      <!-- Parc Longchamp -->
+      <a href="#" id="activiteSix">
+        <div class="activiteImg">
+          <img class="activiteImgMarseille" src="img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+            alt="Parc Longchamp, monument situé dans Marseille">
+        </div>
+        <h3 class="activiteImgTitre">Parc Longchamp</h3>
+      </a>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footerSInformation">
+      <!-- A propos  -->
+      <div class="footerInformationColone">
+        <h3>A propos</h3>
+        <a class="footerInformationColoneLien" href="#">Fonctionnement du site</a>
+        <a class="footerInformationColoneLien" href="#">Conditions générales de vente</a>
+        <a class="footerInformationColoneLien" href="#">Données et confidentialité</a>
+      </div>
+      <!-- Nos hébergements  -->
+      <div class="footerInformationColone">
+        <h3>Nos hébergements</h3>
+        <a class="footerInformationColoneLien" href="#">Charte qualité</a>
+        <a class="footerInformationColoneLien" href="#">Soumettre votre hôtel</a>
+      </div>
+      <!-- Assistance  -->
+      <div class="footerInformationColone">
+        <h3>Assistance</h3>
+        <a class="footerInformationColoneLien" href="#">Centre aide</a>
+        <a class="footerInformationColoneLien" href="#">Nous contacter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
